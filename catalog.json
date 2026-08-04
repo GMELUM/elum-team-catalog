@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "apps": [
+        {
+            "id": 7798122,
+            "url": "https://vk.ru/app7798122",
+            "title": "Анонимный Мессенджер",
+            "description": "Анонимный Мессенджер — приложение для анонимного общения и знакомств с передовыми технологиями и интуитивным интерфейсом. Оно объединяет людей на основе общих интересов и возраста, используя умные алгоритмы подбора. Приложение работает быстро и стабильно даже на парковке, экономит трафик и занимает мало места. Кастомизация тем чатов и интерфейса делает общение ещё комфортнее.",
+            "color": "2887F230",
+            "new": false,
+            "visible": true,
+            "icon": {
+                "576": "https://catalog.elumapp.ru/source/7798122/576.png",
+                "278": "https://catalog.elumapp.ru/source/7798122/278.png",
+                "150": "https://catalog.elumapp.ru/source/7798122/150.png",
+                "32": "https://catalog.elumapp.ru/source/7798122/32.png"
+            }
+        },
+        {
+            "id": 8022222,
+            "url": "https://vk.ru/app8022222",
+            "title": "Кино Вместе",
+            "description": "Смотрите видео из «ВКонтакте» вместе с друзьями. Синхронное воспроизведение и общие эмоции, где бы вы ни находились.",
+            "color": "FD2A9B30",
+            "new": true,
+            "visible": true,
+            "icon": {
+                "576": "https://catalog.elumapp.ru/source/8022222/576.png",
+                "278": "https://catalog.elumapp.ru/source/8022222/278.png",
+                "150": "https://catalog.elumapp.ru/source/8022222/150.png",
+                "32": "https://catalog.elumapp.ru/source//8022222/32.png"
+            }
+        }
+    ]
+}
