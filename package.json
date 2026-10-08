@@ -1,0 +1,14 @@
+{
+    "name": "elum-team-catalog",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "icons": "node update-icons.mjs"
+    },
+    "engines": {
+        "node": ">=20.9.0"
+    },
+    "dependencies": {
+        "sharp": "^0.35.5"
+    }
+}
