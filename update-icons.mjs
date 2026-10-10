@@ -8,7 +8,8 @@ const root = fileURLToPath(new URL('.', import.meta.url));
 const catalogPath = join(root, 'catalog.json');
 const sourcePath = join(root, 'source');
 const maskPath = join(root, 'Squircle.svg');
-const iconSize = 150;
+const iconSize = 100;
+const iconQuality = 80;
 
 async function main() {
     const original = await readFile(catalogPath, 'utf8');
@@ -57,7 +58,7 @@ async function main() {
             .resize(iconSize, iconSize, { fit: 'cover', position: 'centre' })
             .ensureAlpha()
             .composite([{ input: mask, blend: 'dest-in' }])
-            .png({ compressionLevel: 9, adaptiveFiltering: true })
+            .png({ quality: iconQuality, palette: true, compressionLevel: 9, adaptiveFiltering: true })
             .toBuffer();
         const icon = `data:image/png;base64,${png.toString('base64')}`;
         if (!app) {
